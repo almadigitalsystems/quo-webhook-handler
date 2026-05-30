@@ -1,0 +1,11 @@
+name = "quo-webhook-handler"
+main = "src/index.js"
+compatibility_date = "2024-09-23"
+account_id = "99e96036ce0e0b137b5a287d3d450e89"
+
+[vars]
+PAPERCLIP_API_URL = "https://paperclip-api.almawebcreative.com"
+
+# Secrets set via:
+#   wrangler secret put QUO_SIGNING_SECRET   (base64 key from Quo webhook settings page)
+#   wrangler secret put PAPERCLIP_API_KEY    (persistent API key from Paperclip board admin)
